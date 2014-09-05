@@ -1,0 +1,28 @@
+{
+  "name": "check-args",
+  "version": "0.0.1",
+  "description": "Fast and tiny helper to check argument (or array element) types",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://artarf@github.com/artarf/check-args.git"
+  },
+  "keywords": [
+    "check",
+    "validate",
+    "assert",
+    "arguments"
+  ],
+  "author": "artarf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artarf/check-args/issues"
+  },
+  "homepage": "https://github.com/artarf/check-args",
+  "dependencies": {
+    "check-args-impl": "^0.0.1"
+  }
+}
