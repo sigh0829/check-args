@@ -1,1 +1,1 @@
-module.exports = require("check-args-impl").Assert.accept;
+module.exports = require("check-args-impl").TypeCheck.accept;
