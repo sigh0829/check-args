@@ -32,11 +32,11 @@ don't mind few extra fractions of milliseconds, you can keep it on also in produ
 
 ## Design goals
 
-- Can be omitted in production
-- Very fast, also in development
-- Intuitive to use
-- Informative error messages
-- Stack trace should show correct location at the top
+- Can be omitted in production.
+- Very fast, also in development.
+- Intuitive to use.
+- Informative error messages.
+- Stack trace should show correct location at the top.
 
 ## How to use it
 
@@ -110,6 +110,7 @@ Describes one signature for the function.
 Object :: An object that allows you to define more signatures (`accept()`)
 or wrap a function (`for()`).
 
+* * *
 
 ### `for(wrapped_function)`
 
@@ -129,6 +130,8 @@ which lists allowed signatures and the provided one. This functionality
 will be enabled only when `check_args` is available. Otherwise
 for returns the `wrapped_function` as it is.
 
+* * *
+
 ### Type specification
 
 This can be a javascript builtin type (String, Number, Boolean, ...),
@@ -141,6 +144,8 @@ type specification.
 | modifier object | ...
 | custom type     | ...
 
+
+* * *
 
 ## Wrapping a function with a checker
 
@@ -264,5 +269,5 @@ None yet that I know
 ### Blacklist
 
 Here will be listed all published modules (I can find) that have `check-args` in dependencies.
-Note that having it in devDependencies is ok.
-This is **evil** because if *any* of the dependent modules has it in its dependencies, type checking will always be on in the whole application.
+This would be **evil** because if *any* of the dependent modules has it in its dependencies, type checking will always be on in the whole application.
+Note that having it in **dev**Dependencies is ok.
