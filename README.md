@@ -66,7 +66,7 @@ We assume that in your application you use `the-library`, that has something alo
 ```javascript
 var accept = require("check-args-lib")
 
-var fn = accept(Number).accept(String).for(function(dyna) {
+var fn = accept(Number).accept(String).to(function(dyna) {
   // do something with dyna...
   // If the type checking is enabled, you can now be sure it is
   // defined and it is a number or a string
@@ -153,7 +153,7 @@ type specification.
 var fn = accept([arguments..])
           .accept([arguments..])
           // ... any number of accept calls
-          .for(function(arguments...) { });
+          .to(function(arguments...) { });
 ```
 See API
 
