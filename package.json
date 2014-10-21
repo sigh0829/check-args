@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/artarf/check-args",
   "dependencies": {
-    "check-args-impl": "^0.0.3"
+    "check-args-impl": "^0.0.4"
   }
 }
