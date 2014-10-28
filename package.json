@@ -1,6 +1,6 @@
 {
   "name": "check-args",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Fast and tiny helper to check argument (or array element) types",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/artarf/check-args",
   "dependencies": {
-    "check-args-impl": "^0.0.4"
+    "check-args-impl": "^0.0.5"
   }
 }
